@@ -1,0 +1,2 @@
+1;John;Doe;USA;jd@wp.pl;SONY_HDR-CX240EB;1920;1080;MPEG4;12.7;10.26;0.125;16;9
+2;Andrew;Jones;USA;ad@wp.pl;Blackmagic Micro Cinema Camera;1920;1080;CinemaDNG_RAW;12.48;7.02;0.12;16;9

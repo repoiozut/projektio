@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>IO Kamera</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(19, 19, 19);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>621</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(38, 39, 38);
+border-bottom: 1px qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+color: rgb(198, 202, 202);
+font-weight: 600;
+font-size: 18px;
+letter-spacing: 3px;</string>
+   </property>
+   <property name="text">
+    <string>   Witaj,</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="settings">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>500</y>
+     <width>601</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(34, 35, 35);
+color: rgb(27, 28, 28);
+font-weight: 600;
+font-size: 16px;
+border: 1px solid rgb(27, 28, 28);
+border-radius: 8px;
+</string>
+   </property>
+   <property name="text">
+    <string>Ustawienia</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tworcy">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>10</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(34, 35, 35);
+color: rgb(198, 202, 202);
+font-size: 10px;
+font-weight: 600;
+border: 1px solid rgb(27, 28, 28);
+border-radius: 5px;
+</string>
+   </property>
+   <property name="text">
+    <string>Twórcy</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(142, 144, 144);
+font-size: 40px;</string>
+   </property>
+   <property name="text">
+    <string>Co chcesz zrobić?</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="podglad">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>370</y>
+     <width>271</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(34, 35, 35);
+color: rgb(27, 28, 28);
+font-weight: 600;
+font-size: 16px;
+border: 1px solid rgb(27, 28, 28);
+border-radius: 8px;
+</string>
+   </property>
+   <property name="text">
+    <string>Podgląd na żywo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="skrypt">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>250</y>
+     <width>271</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(34, 35, 35);
+color: rgb(27, 28, 28);
+font-weight: 600;
+font-size: 16px;
+border: 1px solid rgb(27, 28, 28);
+border-radius: 8px;
+</string>
+   </property>
+   <property name="text">
+    <string>Skryptowanie</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="calc">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>271</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(34, 35, 35);
+color: rgb(198, 202, 202);
+font-weight: 600;
+font-size: 16px;
+border: 1px solid rgb(27, 28, 28);
+border-radius: 8px;
+</string>
+   </property>
+   <property name="text">
+    <string>Kalkulacje</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="info">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>130</y>
+     <width>281</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(34, 35, 35);
+color: rgb(198, 202, 202);
+font-weight: 600;
+font-size: 16px;
+border: 1px solid rgb(27, 28, 28);
+border-radius: 8px;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Informacje</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="shop">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>250</y>
+     <width>281</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(34, 35, 35);
+color: rgb(27, 28, 28);
+font-weight: 600;
+font-size: 16px;
+border: 1px solid rgb(27, 28, 28);
+border-radius: 8px;
+</string>
+   </property>
+   <property name="text">
+    <string>Sklep</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="plugins">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>370</y>
+     <width>281</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(34, 35, 35);
+color: rgb(27, 28, 28);
+font-weight: 600;
+font-size: 16px;
+border: 1px solid rgb(27, 28, 28);
+border-radius: 8px;
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Plugins</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
