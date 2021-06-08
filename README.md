@@ -1,1 +1,40 @@
 # projektio
+Środowisko: 
+Python 3.9.5
+Visual Studio Code 1.5.6.2 + rozszerzenie ms-python.python
+Pakiety: 
+Package           Version
+----------------- -------
+astroid           2.5.6
+colorama          0.4.4
+cycler            0.10.0
+dill              0.3.3
+isort             5.8.0
+joblib            1.0.1
+kiwisolver        1.3.1
+lazy-object-proxy 1.6.0
+matplotlib        3.4.2
+mccabe            0.6.1
+numpy             1.20.3
+pandas            1.2.4
+patsy             0.5.1
+Pillow            8.2.0
+pip               21.1.1
+pylint            2.8.2
+pyparsing         2.4.7
+PyQt5             5.15.4
+PyQt5-Qt5         5.15.2
+PyQt5-sip         12.9.0
+python-dateutil   2.8.1
+pytz              2021.1
+scikit-learn      0.24.2
+scipy             1.6.3
+seaborn           0.11.1
+setuptools        56.0.0
+six               1.16.0
+statsmodels       0.12.2
+tabulate          0.8.9
+threadpoolctl     2.1.0
+toml              0.10.2
+wheel             0.36.2
+wrapt             1.12.1
